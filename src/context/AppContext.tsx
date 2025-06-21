@@ -522,12 +522,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
                 monthlyIncome: supabaseActions.data.userProfile.monthly_income,
               }
             : {
-                id: user.id,
-                name: user.user_metadata?.name || user.email?.split('@')[0] || 'User',
-                email: user.email || '',
-                occupation: user.user_metadata?.occupation || '',
-                monthlyIncome: user.user_metadata?.monthlyIncome || 0,
-              },
+            id: user.id,
+            name: user.user_metadata?.name || user.email?.split('@')[0] || 'User',
+            email: user.email || '',
+            occupation: user.user_metadata?.occupation || '',
+            monthlyIncome: user.user_metadata?.monthlyIncome || 0,
+          },
         },
       })
     } else if (!user) {

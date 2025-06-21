@@ -152,3 +152,4 @@ MIT License – Free to use, modify, and distribute.
 
 > This README is part of the global revamp effort to position DuitCerdik for international scalability and cross-platform deployment.
 
+# duitcerdikapp
